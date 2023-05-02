@@ -18,6 +18,7 @@ class Login extends Component {
                     <img className={'img-logo lg'} src={ logo }  alt={'로고'} />
                 </div>
                 <div className={'login-area'}>
+                    <h2 className={'div-title'}>로그인</h2>
                     <div className={'login-area-input'}>
                         <ul>
                             <li>아이디</li>

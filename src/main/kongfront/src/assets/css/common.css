@@ -1,3 +1,14 @@
+/* * COLOR */
+:root {
+    --black: #020715;
+    --light-gray: #919191;
+    --dark-gray: #585858;
+    --light-green: #B4E7A7;
+    --green: #8FD77C;
+    --dark-green: #64B74E;
+    --very-dark-green: #429A2B;
+}
+
 /* * LOGO */
 .img-logo { position: relative; }
 .img-logo.lg { width: 150px; }

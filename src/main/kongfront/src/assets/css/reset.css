@@ -17,8 +17,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin:0;
 	padding:0;
 	border:0;
-	font-size:100%;
-	font:inherit;
+	/*font-size:100%;*/
+	/*font:inherit;*/
 	word-break:normal;
 	letter-spacing:-1px;
 	box-sizing:border-box;
@@ -28,8 +28,8 @@ sup {
 	margin:0;
 	padding:0;
 	border:0;
-	font-size:100%;
-	font:inherit;
+	/*font-size:100%;*/
+	/*font:inherit;*/
 	word-break:normal;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
@@ -48,8 +48,9 @@ a, a:link, a:active, a:hover, a:visited{text-decoration:none;}
 
 /* * FONT */
 * {
-	font-family: 'pretendard-regular' !important;
-	font-size: 15px !important;
+	font-family: 'pretendard-regular';
+	font-size: 15px;
+	color: var(--black);
 }
 @font-face {
 	font-family: 'pretendard-light';
