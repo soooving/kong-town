@@ -1,0 +1,65 @@
+/* * DEFAULT */
+@charset "utf-8";
+/*
+Reset & Set Stylesheet
+v1.0.1
+First Updated: 2016-08-01
+Last Updated: 2016-08-05
+Author: OBS
+*/
+
+/***** RESET *****/
+html, #root {
+	width: 100%;
+	height: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, select{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	word-break:normal;
+	letter-spacing:-1px;
+	box-sizing:border-box;
+	outline:none;
+}
+sup {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	word-break:normal;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+body {line-height:1; word-break:break-all; -ms-word-break:break-all; -webkit-text-size-adjust:none; height:100%; }
+ol, ul, dl, li, menu {list-style:none; padding:0; margin:0;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none}
+table {border-collapse:collapse; border-spacing:0; }
+textarea {overflow:auto}
+/*input, select, textarea, button, optgroup {font-size:100%; vertical-align:middle;  color:#444444; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; margin:0; }*/
+em, address{font-style:normal;}
+button {border:none 0; cursor:pointer;}
+select option{font-size:14px;}
+a, a:link, a:active, a:hover, a:visited{text-decoration:none;}
+
+
+/* * FONT */
+* {
+	font-family: 'pretendard-regular' !important;
+	font-size: 15px !important;
+}
+@font-face {
+	font-family: 'pretendard-light';
+	src: url('../fonts/Pretendard-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pretendard-regular';
+	src: url('../fonts/Pretendard-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pretendard-semiBold';
+	src: url('../fonts/Pretendard-SemiBold.ttf') format('truetype');
+}

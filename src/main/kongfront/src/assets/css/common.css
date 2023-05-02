@@ -1,0 +1,5 @@
+/* * LOGO */
+.img-logo { position: relative; }
+.img-logo.lg { width: 150px; }
+.img-logo.mid { width: 100px; }
+.img-logo.sm { width: 50px; }
