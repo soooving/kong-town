@@ -1,8 +1,3 @@
-/* ? BUTTON */
-.a-text-btn {  }
-.a-btn { display: inline-block; width: 100%; padding: 10px 0px; font-size: 15px; border-radius: 10px; }
-.a-btn.login-btn { padding: 20px 0px; font-size: 20px; background-color: var(--dark-green); color: var(--white); }
-
 /* ? TITLE */
 .div-title { font-family: 'pretendard-semiBold'; font-size: 40px; }
 
@@ -16,6 +11,6 @@
 .login-area-input > ul > li > input { width: 100%; padding: 15px 10px; border: 1px solid var(--light-gray); border-radius: 10px; font-size: 15px; }
 .login-area-input > ul > li > input:focus { border: 2px solid var(--dark-green); }
 .login-area-btn { text-align: center; padding-top: 10px; }
+.login-area-btn .a-btn.login-btn { padding: 20px 0px; font-size: 20px; background-color: var(--dark-green); color: var(--white); }
 .login-area-link { margin-top: 20px; display: flex; justify-content: space-between; }
-.login-area-link a { color: var(--light-gray); }
 .login-area-link a:not(:last-child) { padding-right: 30px; }
