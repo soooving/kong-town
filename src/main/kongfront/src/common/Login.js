@@ -18,7 +18,6 @@ class Login extends Component {
                     <img className={'img-logo lg'} src={ logo }  alt={'로고'} />
                 </div>
                 <div className={'login-area'}>
-                    <h2 className={'div-title'}>로그인</h2>
                     <div className={'login-area-input'}>
                         <ul>
                             <li>아이디</li>
@@ -29,17 +28,21 @@ class Login extends Component {
                         <ul>
                             <li>패스워드</li>
                             <li>
-                                <input type={'text'} />
+                                <input type={'password'} />
                             </li>
                         </ul>
                     </div>
                     <div className={'login-area-btn'}>
-                        <a className={'a-btn main-btn'} href={'/'}>로그인</a>
+                        <a className={'a-btn login-btn'} href={'/'}>로그인</a>
                     </div>
                     <div className={'login-area-link'}>
-                        <a className={'a-text-btn'} href={'/'}>회원가입</a>
-                        <a className={'a-text-btn'} href={'/'}>아이디찾기</a>
-                        <a className={'a-text-btn'} href={'/'}>비밀번호변경</a>
+                        <div>
+                            <a className={'a-text-btn'} href={'/'}>회원가입</a>
+                        </div>
+                        <div>
+                            <a className={'a-text-btn'} href={'/'}>아이디찾기</a>
+                            <a className={'a-text-btn'} href={'/'}>비밀번호변경</a>
+                        </div>
                     </div>
                 </div>
             </div>

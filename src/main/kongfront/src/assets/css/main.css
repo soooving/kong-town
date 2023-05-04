@@ -1,7 +1,7 @@
 /* ? BUTTON */
 .a-text-btn {  }
-.a-btn {  }
-.a-btn.main-btn {  }
+.a-btn { display: inline-block; width: 100%; padding: 10px 0px; font-size: 15px; border-radius: 10px; }
+.a-btn.login-btn { padding: 20px 0px; font-size: 20px; background-color: var(--dark-green); color: var(--white); }
 
 /* ? TITLE */
 .div-title { font-family: 'pretendard-semiBold'; font-size: 40px; }
@@ -9,7 +9,13 @@
 /* ? LOGIN */
 .login { width:100%; height: 100%; position: relative; display: flex; align-items: center; justify-content: center; }
 .login-logo { position: fixed; top: 0; left: 0; }
-.login-area { width: 600px; padding: 40px 30px; border: 2px solid var(--dark-green); border-radius: 10px; }
+.login-area { width: 500px; }
 .login-area-input {  }
-.login-area-input > ul {  }
-.login-area-input > ul > li {  }
+.login-area-input > ul { padding-bottom: 20px; }
+.login-area-input > ul > li { padding-bottom: 10px; }
+.login-area-input > ul > li > input { width: 100%; padding: 15px 10px; border: 1px solid var(--light-gray); border-radius: 10px; font-size: 15px; }
+.login-area-input > ul > li > input:focus { border: 2px solid var(--dark-green); }
+.login-area-btn { text-align: center; padding-top: 10px; }
+.login-area-link { margin-top: 20px; display: flex; justify-content: space-between; }
+.login-area-link a { color: var(--light-gray); }
+.login-area-link a:not(:last-child) { padding-right: 30px; }
