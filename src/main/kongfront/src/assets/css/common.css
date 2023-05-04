@@ -4,6 +4,7 @@
     --black: #020715;
     --light-gray: #919191;
     --dark-gray: #585858;
+    --very-light-green: #D9F4D2;
     --light-green: #B4E7A7;
     --green: #8FD77C;
     --dark-green: #64B74E;
@@ -28,6 +29,6 @@
 .a-text-btn { color: var(--light-gray); }
 
 /* * LAYOUT */
-.menu { width: 300px; height: 100%; float: left; }
+.menu { width: 300px; height: 100%; float: left; border-right: 2px solid var(--very-light-green); }
 .header { width: calc(100% - 300px); height: 50px; float: right; }
 .contents { width: calc(100% - 300px); height: calc(100% - 50px); float: right; }
